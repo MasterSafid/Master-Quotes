@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>masterquotes</title>
     <link
       rel="icon"
       type="image/png"
@@ -17,6 +17,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="quote-container" id="quote-container">
+      <!-- Qoute  -->
+      <div class="quote-text">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote"></span>
+      </div>
+      <!-- Author -->
+      <div id="author">
+        <span class="quote-author"></span>
+      </div>
+      <!-- Buttons -->
+      <div class="button-container">
+        <button class="facebook-button" id="facebook" title="Post This!">
+          <i class="fab fa-facebook"></i>
+        </button>
+        <button id="new-quote">New Quote</button>
+      </div>
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
     <!-- script -->
     <script src="script.js"></script>
   </body>
